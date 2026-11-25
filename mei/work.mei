@@ -527,6 +527,8 @@
               </staff>
               <slur xml:id="seminar-slur-3" startid="#d418889e265" endid="#d418889e528" staff="1" curvedir="above" />
               <slur xml:id="seminar-slur-4" startid="#d418889e444" endid="#d418889e657" staff="2" curvedir="above" />
+           <pedal xml:id="seminar-pedal-1" staff="2" tstamp="1" dir="down"/>
+<pedal xml:id="seminar-pedal-2" staff="2" tstamp="5" dir="up"/>
             </measure>
             <measure n="3" xml:id="d418889e526" facs="#zone-grieg-voglein-p0001-003">
               <staff n="1">
@@ -575,6 +577,8 @@
               </staff>
               <slur xml:id="seminar-slur-5" startid="#d418889e572" endid="#d418889e837" staff="1" curvedir="above" />
               <slur xml:id="seminar-slur-6" startid="#d418889e755" endid="#d418889e1059" staff="2" curvedir="above" />
+            <pedal xml:id="seminar-pedal-3" staff="2" tstamp="1" dir="down"/>
+<pedal xml:id="seminar-pedal-4" staff="2" tstamp="5" dir="up"/>
             </measure>
             <measure n="4" xml:id="d418889e835" facs="#zone-grieg-voglein-p0001-004">
               <staff n="1">
