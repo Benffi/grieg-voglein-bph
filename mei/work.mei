@@ -477,6 +477,8 @@
                   </beam>
                 </layer>
               </staff>
+              <slur xml:id="seminar-slur-1" startid="#d418889e30" endid="#d418889e221" staff="1" curvedir="above" />
+              <slur xml:id="seminar-slur-2" startid="#d418889e139" endid="#d418889e346" staff="2" curvedir="above" />
               <dynam staff="1" place="below" tstamp="1">p</dynam>
               <tempo xml:id="seminar-tempo-1" staff="1" place="above" tstamp="1">Allegro leggiero.</tempo>
             </measure>
@@ -523,6 +525,8 @@
                   </beam>
                 </layer>
               </staff>
+              <slur xml:id="seminar-slur-3" startid="#d418889e265" endid="#d418889e528" staff="1" curvedir="above" />
+              <slur xml:id="seminar-slur-4" startid="#d418889e444" endid="#d418889e657" staff="2" curvedir="above" />
             </measure>
             <measure n="3" xml:id="d418889e526" facs="#zone-grieg-voglein-p0001-003">
               <staff n="1">
@@ -569,6 +573,8 @@
                   </beam>
                 </layer>
               </staff>
+              <slur xml:id="seminar-slur-5" startid="#d418889e572" endid="#d418889e837" staff="1" curvedir="above" />
+              <slur xml:id="seminar-slur-6" startid="#d418889e755" endid="#d418889e1059" staff="2" curvedir="above" />
             </measure>
             <measure n="4" xml:id="d418889e835" facs="#zone-grieg-voglein-p0001-004">
               <staff n="1">
@@ -623,6 +629,10 @@
                   </beam>
                 </layer>
               </staff>
+              <slur xml:id="seminar-slur-7" startid="#d418889e865" endid="#d418889e945" staff="1" curvedir="above" />
+              <slur xml:id="seminar-slur-8" startid="#d418889e1087" endid="#d418889e1171" staff="2" curvedir="above" />
+              <slur xml:id="seminar-slur-9" startid="#d418889e973" endid="#d418889e1284" staff="1" curvedir="above" />
+              <slur xml:id="seminar-slur-10" startid="#d418889e1201" endid="#d418889e1409" staff="2" curvedir="above" />
             </measure>
             <sb xml:id="sb-grieg-voglein-p0001-s02" />
             <measure n="5" xml:id="d418889e1282" facs="#zone-grieg-voglein-p0001-005">
