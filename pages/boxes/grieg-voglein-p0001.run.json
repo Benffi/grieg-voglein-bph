@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://measure-detector.edirom.de/upload",
+  "created_at": "2026-11-25T22:45:58.077819+00:00",
+  "image": "page-0001.png",
+  "image_sha256": "93eb0e016853d82868021d5b0a30604ad90f8f1912bb568c7cec98e319c69495",
+  "response_sha256": "698771df9528f05cf780a7a621e7b00a816a7de31337ee522223ed371c0765f3",
+  "measures": 20
+}
