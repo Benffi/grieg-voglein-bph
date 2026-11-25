@@ -89,6 +89,12 @@
           <name>meiLint.xsl</name>
           <ptr target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
         </application>
+        <application xml:id="xsl_ppq">
+    <name>ppq.xsl</name>
+</application>
+<application xml:id="xsl_header">
+    <name>Header.xsl</name>
+</application>
       </appInfo>
       <samplingDecl>
         <p>Any more articulation after the conversion.</p>
