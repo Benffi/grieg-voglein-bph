@@ -478,6 +478,7 @@
                 </layer>
               </staff>
               <dynam staff="1" place="below" tstamp="1">p</dynam>
+              <tempo xml:id="seminar-tempo-1" staff="1" place="above" tstamp="1">Allegro leggiero.</tempo>
             </measure>
             <measure n="2" xml:id="d418889e219" facs="#zone-grieg-voglein-p0001-002">
               <staff n="1">
