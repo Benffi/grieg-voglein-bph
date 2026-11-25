@@ -229,6 +229,8 @@
     <manifestationList>
       <manifestation>
         <identifier type="URI">http://javanese.imslp.info/files/imglnks/usimg/7/75/IMSLP28165-PMLP01778-Grieg-KlavierwerkeBand1-Op43-Peters.pdf</identifier>
+  <identifier type="IMSLP">28165</identifier>
+        <identifier type="SHA-256">5f78faa514434df76d2648e7b70bc289858bd226ffea2e916548227c722245a3</identifier>       <identifier type="referenceNumber">op. 43</identifier>
         <identifier type="referenceNumber">op. 43</identifier>
         <titleStmt>
           <title>Lyric Pieces</title>
@@ -376,6 +378,15 @@
           <p>Applied lint mode.</p>
         </changeDesc>
         <date isodate="2025-01-17" />
+      </change>
+      <change n="15">
+        <respStmt>
+            <persName>Ben</persName>
+        </respStmt>
+        <changeDesc>
+          <p>Linked every bar to its box on pages 42–43 of the Peters print (IMSLP 28165) with CAMAT 0.2.8. Restored the printed marks of page 42, system 1 (bars 1–4) from the print.</p>
+        </changeDesc>
+        <date isodate="2026-11-26"/>
       </change>
     </revisionDesc>
   </meiHead>
