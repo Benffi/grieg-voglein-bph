@@ -21,6 +21,8 @@ jobs:
           python-version: "3.12"
       - run: pip install camat==0.2.8
       - run: camat-build-site site.json _site
+      - name: Add optional bird easter egg
+        run: python site-addon/inject.py
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

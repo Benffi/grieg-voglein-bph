@@ -1,0 +1,51 @@
+/* Optional Easter egg: remove site-addon/ and its workflow step to disable it. */
+#camat-bird-easter-egg {
+  position: fixed;
+  top: 0.65rem;
+  right: 0.75rem;
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  font: 24px/30px system-ui, sans-serif;
+  text-align: center;
+  filter: drop-shadow(0 1px 1px rgb(0 0 0 / 18%));
+  transform-origin: 50% 85%;
+}
+
+#camat-bird-easter-egg:hover {
+  transform: scale(1.08);
+}
+
+#camat-bird-easter-egg.is-hopping {
+  animation: camat-bird-hop 520ms ease-in-out;
+}
+
+#camat-bird-easter-egg.is-flapping {
+  animation: camat-bird-flap 620ms ease-in-out;
+}
+
+@keyframes camat-bird-hop {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  45% { transform: translateY(-7px) rotate(-5deg); }
+  70% { transform: translateY(0) rotate(3deg); }
+}
+
+@keyframes camat-bird-flap {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  20% { transform: rotate(-12deg) scale(1.08, 0.92); }
+  40% { transform: rotate(12deg) scale(0.95, 1.08); }
+  60% { transform: rotate(-10deg) scale(1.08, 0.92); }
+  80% { transform: rotate(7deg) scale(0.98, 1.04); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #camat-bird-easter-egg.is-hopping,
+  #camat-bird-easter-egg.is-flapping {
+    animation: none;
+  }
+}
