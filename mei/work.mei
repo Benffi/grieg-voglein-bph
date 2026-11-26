@@ -502,15 +502,17 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note xml:id="d418889e346" pname="d" oct="5" dur="8" stem.dir="up">
-                    <artic artic="stacc" place="above" />
-                    <artic artic="acc" place="above" />
-                  </note>
-                  <rest xml:id="d418889e368" dur="8" />
-                  <chord xml:id="d418905e1" dur="8" stem.dir="up">
-                    <note xml:id="d418889e378" pname="d" oct="4" />
-                    <note xml:id="d418889e394" pname="a" oct="4" />
-                  </chord>
+                  <beam>
+                    <note xml:id="d418889e346" pname="d" oct="5" dur="8" stem.dir="up">
+                      <artic artic="stacc" place="above" />
+                      <artic artic="acc" place="above" />
+                    </note>
+                    <rest xml:id="d418889e368" dur="8" />
+                    <chord xml:id="d418905e1" dur="8" stem.dir="up">
+                      <note xml:id="d418889e378" pname="d" oct="4" />
+                      <note xml:id="d418889e394" pname="a" oct="4" />
+                    </chord>
+                  </beam>
                   <chord xml:id="d418909e1" dur="4" stem.dir="up">
                     <artic artic="stacc" place="above" />
                     <artic artic="stacc" place="above" />
